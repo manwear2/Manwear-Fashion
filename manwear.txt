@@ -1,0 +1,139 @@
+<!DOCTYPE html><html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manwear Fashion</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background-color: #003b2f;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #025142;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('https://i.ibb.co/hHLphTY/mens-fashion.jpg') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 80px 20px;
+    }
+    .hero h2 {
+      font-size: 2.5rem;
+    }
+    .section-title {
+      text-align: center;
+      margin: 40px 0 20px;
+      font-size: 1.8rem;
+      color: #003b2f;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 15px;
+    }
+    .product img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .product h3 {
+      margin-top: 10px;
+    }
+    .product p {
+      font-size: 0.9rem;
+    }
+    footer {
+      background-color: #003b2f;
+      color: #fff;
+      text-align: center;
+      padding: 25px 15px;
+      margin-top: 40px;
+    }
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.8rem;
+      }
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>  <header>
+    <h1>Manwear Fashion</h1>
+    <p>স্টাইল যেটা বলে দেয় আপনি কে</p>
+  </header>  <nav>
+    <a href="#home">হোম</a>
+    <a href="#products">পণ্য</a>
+    <a href="#contact">যোগাযোগ</a>
+  </nav>  <section class="hero" id="home">
+    <h2>মানেই স্টাইল, মানেই Manwear</h2>
+    <p>টি-শার্ট, পলো শার্ট, সুইট শার্ট, জ্যাকেট - সব এক ছাদের নিচে</p>
+  </section>  <h2 class="section-title" id="products">আমাদের পণ্য</h2>
+  <section class="products">
+    <div class="product">
+      <img src="https://i.ibb.co/x6cbgDz/tshirt.jpg" alt="T-Shirt">
+      <h3>টি-শার্ট</h3>
+      <p>সাইজ: M, L, XL, XXL</p>
+      <p>মূল্য: ৳499</p>
+    </div>
+    <div class="product">
+      <img src="https://i.ibb.co/BCfj3Zt/polo.jpg" alt="Polo Shirt">
+      <h3>পলো শার্ট</h3>
+      <p>সাইজ: M, L, XL, XXL</p>
+      <p>মূল্য: ৳599</p>
+    </div>
+    <div class="product">
+      <img src="https://i.ibb.co/4P08j3s/sweatshirt.jpg" alt="Sweatshirt">
+      <h3>সুইট শার্ট</h3>
+      <p>সাইজ: M, L, XL, XXL</p>
+      <p>মূল্য: ৳749</p>
+    </div>
+    <div class="product">
+      <img src="https://i.ibb.co/0nKykRt/jacket.jpg" alt="Jacket">
+      <h3>জ্যাকেট</h3>
+      <p>সাইজ: M, L, XL, XXL</p>
+      <p>মূল্য: ৳999</p>
+    </div>
+  </section>  <footer id="contact">
+    <p>যোগাযোগ: 01956626169 | 01793801699</p>
+    <p>ইমেইল: mehedihasan2662006@gmail.com</p>
+    <p>পেমেন্ট: ক্যাশ অন ডেলিভারি, বিকাশ, নগদ, রকেট</p>
+    <p>সারা বাংলাদেশে হোম ডেলিভারি</p>
+    <p>&copy; 2025 Manwear Fashion</p>
+  </footer></body>
+</html>
